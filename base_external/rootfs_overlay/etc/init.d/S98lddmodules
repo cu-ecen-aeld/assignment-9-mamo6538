@@ -3,14 +3,14 @@
 case "$1" in
 	start)
 	  echo "Load scull and misc-modules"
-	  ./scull_load
-	  ./module_load faulty
+	  scull_load
+	  module_load faulty
 	  modprobe hello
 	  ;;
 	stop)
 	  echo "Unload scull and misc-modules"
-	  ./scull_unload
-	  ./module_unload faulty
+	  scull_unload
+	  module_unload faulty
 	  rmmod hello
 	  ;;
 	*)
