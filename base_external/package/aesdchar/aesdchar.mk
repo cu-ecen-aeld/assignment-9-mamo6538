@@ -5,7 +5,7 @@
 #
 ##############################################################
 
-AESDCHAR_VERSION = 2902d638485b529d760a222489dd1a51988a45d9
+AESDCHAR_VERSION = c92a6c9c02d5001c498d9937329d0daaaf9c9c05
 AESDCHAR_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-mamo6538.git
 AESDCHAR_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
